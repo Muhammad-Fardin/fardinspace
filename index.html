@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/icons8-coding-64.png" rel="icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Fardin's Space</title>
+  </head>
+  <body>
+
+    <!-- navbar starts    -->
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="index.html" class="nav-link">
+            <span class="link-text logo-text">Fardin's Space</span>
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="angle-double-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <!-- github icon  -->
+
+        <li class="nav-item">
+          <a href="https://github.com/Muhammad-Fardin" class="nav-link">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="github"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              class="svg-inline--fa fa-github fa-w-16 fa-9x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4ZM0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M19.183 45.4715C18.9896 45.2218 18.9896 42.9972 19.183 38.798C17.1112 38.8695 15.8022 38.7257 15.256 38.3666C14.4368 37.8279 13.6166 36.1666 12.8889 34.9958C12.1612 33.825 10.546 33.6399 9.8938 33.3782C9.24158 33.1164 9.07785 32.0495 11.691 32.8564C14.3042 33.6633 14.4316 35.8606 15.256 36.3744C16.0804 36.8882 18.0512 36.6634 18.9446 36.2518C19.8379 35.8402 19.7722 34.3077 19.9315 33.7006C20.1329 33.1339 19.423 33.0082 19.4074 33.0036C18.5353 33.0036 13.9537 32.0072 12.6952 27.5705C11.4368 23.1339 13.0579 20.234 13.9227 18.9874C14.4992 18.1563 14.4482 16.3851 13.7697 13.6736C16.2333 13.3588 18.1344 14.1342 19.4732 16C19.4745 16.0107 21.2283 14.9571 24 14.9571C26.7718 14.9571 27.7551 15.8153 28.514 16C29.2728 16.1847 29.8798 12.734 34.5666 13.6736C33.5881 15.5968 32.7686 18 33.3941 18.9874C34.0195 19.9748 36.4742 23.1146 34.9664 27.5705C33.9611 30.5412 31.9851 32.3522 29.0382 33.0036C28.7002 33.1114 28.5313 33.2854 28.5313 33.5254C28.5313 33.8855 28.9881 33.9248 29.6463 35.6116C30.085 36.7361 30.1167 39.9479 29.7413 45.2469C28.7904 45.489 28.0506 45.6515 27.5219 45.7346C26.5845 45.8819 25.5667 45.9645 24.5666 45.9964C23.5666 46.0283 23.2193 46.0247 21.8368 45.896C20.9151 45.8102 20.0305 45.6687 19.183 45.4715Z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <span class="link-text">Github</span>
+          </a>
+        </li>
+
+          <!-- linkedin icon  -->
+
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/muhammad-fardin-5050b3229" class="nav-link">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="linkedin"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+              class="svg-inline--fa fa-linkedin fa-w-18 fa-9x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M0,0v455h455V0H0z M141.522,378.002H74.016V174.906h67.506V378.002z
+                      M107.769,147.186h-0.446C84.678,147.186,70,131.585,70,112.085c0-19.928,15.107-35.087,38.211-35.087
+                     c23.109,0,37.31,15.159,37.752,35.087C145.963,131.585,131.32,147.186,107.769,147.186z M385,378.002h-67.524V269.345
+                     c0-27.291-9.756-45.92-34.195-45.92c-18.664,0-29.755,12.543-34.641,24.693c-1.776,4.34-2.24,10.373-2.24,16.459v113.426h-67.537
+                     c0,0,0.905-184.043,0-203.096H246.4v28.779c8.973-13.807,24.986-33.547,60.856-33.547c44.437,0,77.744,29.02,77.744,91.398V378.002
+                     z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <span class="link-text">Linkedin</span>
+          </a>
+        </li>
+
+          <!-- Twitter icon  -->
+
+        <li class="nav-item">
+          <a href="https://twitter.com/__Fardin__" class="nav-link">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="twitter"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="svg-inline--fa fa-gmail fa-w-16 fa-5x"
+            >
+              <g class="fa-group">   
+                <path
+                  fill="currentColor"
+                  d="M397.872,162.471c-6.513,2.889-13.271,5.167-20.208,6.815c7.644-7.261,13.39-16.346,16.631-26.484
+                  c0.926-2.893-2.219-5.398-4.832-3.848c-9.65,5.725-20.044,10.016-30.894,12.762c-0.628,0.16-1.276,0.24-1.929,0.24
+	             c-1.979,0-3.896-0.733-5.411-2.065c-11.542-10.174-26.39-15.777-41.805-15.777c-6.672,0-13.405,1.04-20.016,3.091
+	             c-20.487,6.353-36.295,23.254-41.257,44.103c-1.86,7.818-2.362,15.648-1.496,23.264c0.097,0.876-0.314,1.486-0.569,1.772
+	             c-0.45,0.502-1.084,0.791-1.745,0.791c-0.072,0-0.15-0.003-0.224-0.01c-44.846-4.168-85.287-25.772-113.869-60.837
+	             c-1.455-1.789-4.253-1.569-5.415,0.422c-5.596,9.606-8.554,20.589-8.554,31.766c0,17.127,6.884,33.27,18.837,45.039
+	             c-5.027-1.193-9.893-3.07-14.414-5.582c-2.188-1.214-4.877,0.35-4.908,2.851c-0.31,25.445,14.588,48.087,36.905,58.282
+	             c-0.45,0.01-0.9,0.014-1.35,0.014c-3.537,0-7.121-0.338-10.645-1.015c-2.463-0.467-4.532,1.867-3.768,4.253
+	             c7.246,22.618,26.717,39.288,50.021,43.07c-19.339,12.983-41.863,19.83-65.302,19.83l-7.306-0.003c-2.255,0-4.16,1.469-4.73,3.65
+	             c-0.565,2.145,0.474,4.413,2.396,5.53c26.412,15.372,56.541,23.495,87.138,23.495c26.784,0,51.838-5.313,74.466-15.798
+	             c20.745-9.609,39.076-23.345,54.486-40.827c14.357-16.286,25.581-35.085,33.365-55.879c7.418-19.816,11.34-40.967,11.34-61.154
+	             v-0.964c0-3.241,1.465-6.291,4.024-8.37c9.706-7.882,18.16-17.158,25.122-27.572C403.796,164.578,400.896,161.13,397.872,162.471
+	             L397.872,162.471z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M397.872,162.471c-6.515,2.889-13.271,5.167-20.208,6.815c7.644-7.261,13.39-16.346,16.632-26.484
+	             c0.926-2.893-2.219-5.398-4.832-3.848c-9.65,5.725-20.044,10.016-30.894,12.762c-0.628,0.16-1.276,0.24-1.929,0.24
+	             c-1.979,0-3.896-0.733-5.411-2.065c-11.542-10.174-26.39-15.777-41.805-15.777c-6.671,0-13.405,1.04-20.016,3.091
+	             c-14.322,4.441-26.343,14.048-33.985,26.546v205.477c6.222-2.029,12.293-4.403,18.198-7.139
+	             c20.745-9.609,39.076-23.345,54.486-40.827c14.357-16.287,25.581-35.085,33.365-55.879c7.418-19.816,11.34-40.967,11.34-61.154
+	             v-0.964c0-3.241,1.465-6.291,4.024-8.37c9.706-7.882,18.16-17.158,25.122-27.572C403.796,164.578,400.896,161.13,397.872,162.471z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <span class="link-text">Twitter</span>
+          </a>
+        </li>
+
+        <!-- email icon  -->
+
+        <li class="nav-item">
+          <a href="mailto:fardinbmw5@gmail.com" class="nav-link">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="email"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 283.408 283.408"
+              class="svg-inline--fa fa-email fa-w-20 fa-5x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M268.727,59.362l-127.023,82.341L14.681,59.362C10.294,63.031,7.5,68.542,7.5,74.708v133.991
+		        c0,11.046,8.954,20,20,20h228.409c11.046,0,20-8.954,20-20V74.708C275.909,68.542,273.114,63.031,268.727,59.362z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M283.408,208.699V74.708c0-15.279-12.421-27.5-27.5-27.5H27.5c-15.092,0-27.5,12.235-27.5,27.5
+                  v133.991c0,15.104,12.285,27.5,27.5,27.5h228.408C271.132,236.199,283.408,223.792,283.408,208.699z M199.091,113.441
+                  l68.088-44.137c0.8,1.666,1.229,3.507,1.229,5.404v131.436L199.091,113.441z M15,206.145V74.708c0-1.897,0.429-3.738,1.229-5.404
+                  l68.088,44.137L15,206.145z M141.704,132.766L32.859,62.207H250.55L141.704,132.766z M27.5,221.199
+                  c-1.555,0-3.039-0.299-4.414-0.82l73.846-98.76l40.692,26.378c2.483,1.609,5.678,1.608,8.16,0l40.692-26.378l73.846,98.76
+                  c-1.375,0.521-2.859,0.82-4.414,0.82H27.5z"/
+                  class="fa-primary">
+              </g>
+                  
+                ></path>
+              </g>
+            </svg>
+            <span class="link-text">Email</span>
+          </a>
+        </li>
+
+        <!-- theme icons  -->
+
+        <li class="nav-item" id="themeButton">
+          <a href="#" class="nav-link">
+            <svg
+              class="theme-icon"
+              id="lightIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="moon-stars"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="svg-inline--fa fa-moon-stars fa-w-16 fa-7x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <svg
+              class="theme-icon"
+              id="solarIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="sun"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="svg-inline--fa fa-sun fa-w-16 fa-7x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <svg
+              class="theme-icon"
+              id="darkIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="sunglasses"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+              class="svg-inline--fa fa-sunglasses fa-w-18 fa-7x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M574.09 280.38L528.75 98.66a87.94 87.94 0 0 0-113.19-62.14l-15.25 5.08a16 16 0 0 0-10.12 20.25L395.25 77a16 16 0 0 0 20.22 10.13l13.19-4.39c10.87-3.63 23-3.57 33.15 1.73a39.59 39.59 0 0 1 20.38 25.81l38.47 153.83a276.7 276.7 0 0 0-81.22-12.47c-34.75 0-74 7-114.85 26.75h-73.18c-40.85-19.75-80.07-26.75-114.85-26.75a276.75 276.75 0 0 0-81.22 12.45l38.47-153.8a39.61 39.61 0 0 1 20.38-25.82c10.15-5.29 22.28-5.34 33.15-1.73l13.16 4.39A16 16 0 0 0 180.75 77l5.06-15.19a16 16 0 0 0-10.12-20.21l-15.25-5.08A87.95 87.95 0 0 0 47.25 98.65L1.91 280.38A75.35 75.35 0 0 0 0 295.86v70.25C0 429 51.59 480 115.19 480h37.12c60.28 0 110.38-45.94 114.88-105.37l2.93-38.63h35.76l2.93 38.63c4.5 59.43 54.6 105.37 114.88 105.37h37.12C524.41 480 576 429 576 366.13v-70.25a62.67 62.67 0 0 0-1.91-15.5zM203.38 369.8c-2 25.9-24.41 46.2-51.07 46.2h-37.12C87 416 64 393.63 64 366.11v-37.55a217.35 217.35 0 0 1 72.59-12.9 196.51 196.51 0 0 1 69.91 12.9zM512 366.13c0 27.5-23 49.87-51.19 49.87h-37.12c-26.69 0-49.1-20.3-51.07-46.2l-3.12-41.24a196.55 196.55 0 0 1 69.94-12.9A217.41 217.41 0 0 1 512 328.58z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M64.19 367.9c0-.61-.19-1.18-.19-1.8 0 27.53 23 49.9 51.19 49.9h37.12c26.66 0 49.1-20.3 51.07-46.2l3.12-41.24c-14-5.29-28.31-8.38-42.78-10.42zm404-50l-95.83 47.91.3 4c2 25.9 24.38 46.2 51.07 46.2h37.12C489 416 512 393.63 512 366.13v-37.55a227.76 227.76 0 0 0-43.85-10.66z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+            <span class="link-text">Themify</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends -->
+
+
+
+
+    <!-- header starts  -->
+    <header class="container">
+      <h1 class="text-center">Welcome to my Humble <del>Abode</del>..Website</h1>
+      <h2 class=" reveal text-center" style="padding: 4rem;" >I am Muhammad Fardin, Currently a <span class="hl">Front-end Developer</span></h2>
+
+      <!-- animated svg  -->
+
+     <img src="assets/first.svg" alt="animated svg">
+    </header>
+    <!-- header ends  -->
+
+
+
+    <!-- main page starts  -->
+    <main class="container">
+      <h2 class="text-center reveal">I am From India and I am Familiar With <span class="hl">HTML, CSS, Javascipt, jQuery, Bootstrap</span>
+        I can Make<span class="hl"> Fully-Responsive</span> Websites</h2>
+
+        <!-- animated svg  -->
+        <img src="assets/second.svg" alt="animated svg">
+
+      <div class="third">  
+      <h2 class="text-center reveal">On the journey to find <span class="hl">Out Of The Box Ideas</span> To make websites look more and more pleasing for eyes and <span class="hl">User Experience</span>  </h2>  
+      <img src="assets/third.svg" alt="animated svg">
+      </div>
+   </main>
+
+    <!-- main page ends  -->
+
+
+
+
+    <!-- footer starts  -->
+    <footer class="container text-center reveal">
+      <h2>
+        Some of My <span class="hl">Work</span>
+      </h2>
+
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe  class="embed-responsive-item" src="https://muhammad-fardin.github.io/portfolio" title="Another Portfolio of mine"></iframe>
+      </div>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe  class="embed-responsive-item" src="https://muhammad-fardin.github.io/inv.github.io" title="investment consultant agency website template"></iframe>
+      </div>
+
+      <div class="container-fluid footer">
+        <h2> You Can Connect With Me on <span class="hl"><a href="https://instagram.com/secretive.ly_strange?utm_medium=copy_link">Instagram</a></span> as well</h2>
+        <h2>You Can Hire Me Through, <span class="hl"><a href="https://www.fiverr.com/share/32BNvx">Fiverr</a>, <a href="https://www.upwork.com/freelancers/~011f679cf40726eb46">Upwork</a>, <a href="https://www.freelancer.in/u/Fardin101">Freelancer</a></span></h2>
+      </div>
+    </footer>
+
+    <div class="copyright" align="center">
+      <script>
+        document.write('&copy;' );
+        document.write(' 2022 - ');
+        document.write(new Date().getFullYear());
+        document.write(' https://muhammad-fardin.github.io/fardinspace/ - All Rights Reserved.');
+        document.write('<br/>Last Updated : ');
+        document.write(document.lastModified);
+      </script>
+    </div>
+
+
+  </body>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/script.js"></script>
+</html>
